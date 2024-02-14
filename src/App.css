@@ -4,7 +4,6 @@
   display: grid;
   place-items: center; /* 요소 화면 중앙 배치 */
 }
-
 .sub-container{
   margin: 0 auto;
   max-width: 1280px;

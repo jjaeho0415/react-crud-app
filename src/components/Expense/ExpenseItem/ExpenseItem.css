@@ -8,26 +8,21 @@
     justify-content: space-between;
     transition: all 0.3s linear;
 }
-
 .item:hover{
     width: 100%;
     transform: scale(1.02);
 }
-
 .info{
     flex: 0 0 60%;
     display: flex;
     justify-content: space-between;
 }
-
 .expense{
     margin-right: 2rem;
 }
-
 .amount{
     font-weight: 300;
 }
-
 .clear-btn,
 .edit-btn{
     background: none;
@@ -36,11 +31,9 @@
     outline: none;
     cursor: pointer;
 }
-
 .clear-btn{
     color: var(--mainRed);
 }
-
 .edit-btn{
     color: var(--mainGreen);
 }
