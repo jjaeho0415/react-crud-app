@@ -1,7 +1,9 @@
 import React from "react";
 import "./ExpenseForm.css";
+import { MdSend } from "react-icons/md";
 
 const ExpneseForm = ({
+  edit,
   charge,
   handleCharge,
   amount,
@@ -38,7 +40,8 @@ const ExpneseForm = ({
           </div>
         </div>
         <button type="submit" className="btn">
-          제출
+          {edit ? "수정" : "제출"}
+          <MdSend className="btn-icon" />
         </button>
       </form>
     </div>
