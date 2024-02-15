@@ -16,7 +16,6 @@ const App = () => {
   const [expenses, setExpenses] = useState(initialExpenses);
 
   useEffect(() => {
-    // expenses가 변경될 때마다 로컬 스토리지에 저장합니다.
     localStorage.setItem("expenses", JSON.stringify(expenses));
   }, [expenses]);
 
